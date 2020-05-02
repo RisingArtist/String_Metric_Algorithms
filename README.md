@@ -5,11 +5,11 @@ A programming exercise to help understand string distance algorithms
 
 * Levenshtein Distance = Creates a (M + 1) x (N + 1) matrix where it fills in cells with the number of operations ( Insertion / Deletion / Substitution ) it would take to have both strings to be the same.
 
-where, 
+  where, 
 
-M = the length of the first string
+  M = the length of the first string
 
-N = the length of the second string
+  N = the length of the second string
 
 * Damereau Distance = A modified version of Levenshtein but includes Transposition operation
 
